@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f3f4f5;
+}
+
+.kotak {
+  height: 30vh;
+  background-color: #0099ff;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  z-index: -2;
+}
+
+.container {
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+#btn-reset {
+  margin-top: 2%;
+}
+
+.form-control {
+  border-radius: 0;
+  box-shadow: 2px 2px 2px 2px #888888;
+}
+
+textarea {
+  resize: none;
+}
